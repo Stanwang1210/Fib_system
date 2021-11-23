@@ -24,6 +24,7 @@ $ python3 gRPC-with-protobuf/server.py
 - POST request
 - e.g. if order = 11
 ```bash
+$ sudo apt-get install httpie
 $ http --form POST http://localhost:8000/rest/tutorial data="{'order':11}"
 ```
 
