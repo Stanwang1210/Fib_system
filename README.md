@@ -9,11 +9,11 @@ $ python3 manage.py migrate
 ```
 - Run the REST server
 ```bash
-$ python3 django-rest-tutorial/mysite/manage.py runserver               
+$ python3 Rest/mysite/manage.py runserver               
 ```
 - Run the gRPC Fibonacci server
 ```bash
-$ python3 gRPC-with-protobuf/server.py 
+$ python3 gRPC/server.py 
 ```
 
 - Note that if the build/ directory doesn't exist in any server directory (gRPC/Fib/, REST/ ...)
